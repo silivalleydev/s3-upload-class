@@ -4,7 +4,7 @@ export function onFileUpload(e) {
     const ACCESS_KEY = '계정 PUBLIC ACCESS KEY입력';
     const SECRET_ACCESS_KEY = '계정 SECRET ACCESS KEY입력';
     const REGION = "버킷리전";
-    const S3_BUCKET = 'test-upload-sili';
+    const S3_BUCKET = '버킷이름';
 
     AWS.config.update({
       accessKeyId: ACCESS_KEY,
